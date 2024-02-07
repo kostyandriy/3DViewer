@@ -29,11 +29,6 @@ dist: install
     
 extract:
 	tar -xvf 3DViewer.tar.gz
-    
-dvi: open_dvi
-
-open_dvi:
-	open ./dvi/index.html
 
 clean: clean_tests
 	cd Qt && rm -rf *.o moc_* -rf ui_* Makefile .qmake.stash
